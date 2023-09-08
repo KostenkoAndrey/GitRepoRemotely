@@ -16,4 +16,3 @@ git config --global user.mail Kostenkoandrey14@gmail.com
 13)git checkout commithash 	перейти на commit
 14) 
 15)
-16)
