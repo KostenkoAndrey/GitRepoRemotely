@@ -1,8 +1,13 @@
 git config --global user.name Andrii
 git config --global user.mail Kostenkoandrey14@gmail.com
 
-1)git init		иниациализировать гит репо
-2)git status		отобазить  статус файлов репо 
-3)git add <filename>	добавить файл в stagging area
-4)git commit -m <commit msg>	сделать commit
-5)git log		отобразить лог
+1) git init		иниациализировать гит репо
+2) git status		отобазить  статус файлов репо 
+3) git add <filename>	добавить файл в stagging area
+4) git commit -m <commit msg>	сделать commit
+5) git log		отобразить лог
+6) git add .		добавить все файлы текущей директории 
+7) git add -u		добавить все обновленные файлы 
+8) git remote add origin git@github.com:Andrey19950/GitRepoRemotely.git
+9) git remote -v
+10)git push origin main
