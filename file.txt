@@ -14,14 +14,4 @@ git config --global user.mail Kostenkoandrey14@gmail.com
 11)git checkout -b		создать новую ветку и перейти
 12)git checkout branchname 	перейти на ветку 
 13)git checkout commithash 	перейти на commit
-14) 
-15)
-16
-17
-18
-19
-20
-21
-22
-23
 
