@@ -1,2 +1,8 @@
 git config --global user.name Andrii
 git config --global user.mail Kostenkoandrey14@gmail.com
+
+1)git init		иниациализировать гит репо
+2)git status		отобазить  статус файлов репо 
+3)git add <filename>	добавить файл в stagging area
+4)git commit -m <commit msg>	сделать commit
+5)git log		отобразить лог
