@@ -8,4 +8,6 @@ git config --global user.mail Kostenkoandrey14@gmail.com
 5) git log		отобразить лог
 6) git add .		добавить все файлы текущей директории 
 7) git add -u		добавить все обновленные файлы 
-
+8) git remote add origin git@github.com:Andrey19950/GitRepoRemotely.git
+9) git remote -v
+10)git push origin main
