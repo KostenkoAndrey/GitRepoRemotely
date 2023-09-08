@@ -11,8 +11,8 @@ git config --global user.mail Kostenkoandrey14@gmail.com
 8) git remote add origin git@github.com:Andrey19950/GitRepoRemotely.git
 9) git remote -v
 10)git push origin main
-11
-12
-13
-14
-15
+11)git checkout -b		создать новую ветку и перейти
+12)git checkout branchname 	перейти на ветку 
+13)git checkout commithash 	перейти на commit
+
+
