@@ -1,18 +1,25 @@
 git config --global user.name Andrii
 git config --global user.mail Kostenkoandrey14@gmail.com
 
-1) git init		иниациализировать гит репо
-2) git status		отобазить  статус файлов репо 
-3) git add <filename>	добавить файл в stagging area
+1) git init			иниациализировать гит репо
+2) git status			отобазить  статус файлов репо 
+3) git add <filename>		добавить файл в stagging area
 4) git commit -m <commit msg>	сделать commit
-5) git log		отобразить лог
-6) git add .		добавить все файлы текущей директории 
-7) git add -u		добавить все обновленные файлы 
-8) git remote add origin git@github.com:Andrey19950/GitRepoRemotely.git
-9) git remote -v
-10)git push origin main
-11)git checkout -b		создать новую ветку и перейти
-12)git checkout branchname 	перейти на ветку 
-13)git checkout commithash 	перейти на commit
+5) git log			отобразить лог
+6) git add .			добавить все файлы текущей директории 
+7) git add -u			добавить все обновленные файлы 
+8) git add --all		добавить все файлы текущей директории 
+9) git remote add origin 	git@github.com:Andrey19950/GitRepoRemotely.git
+10)git remote -v		выводит список удалённых репозиториев
+11)git push origin main		використовується для відправки змін з вашої локальної 					гілки main на віддалений репозиторій, який називається 					origin
+12)git checkout -b		создать новую ветку и перейти
+13)git switch -c "branch_name"	створе і перейде на нову гілку
+14)git switch "branch_name"    	зміна гілки (перехід в іншу гілку)
+15)git checkout "branchname" 	перейти на ветку 
+16)git checkout commithash 	перейти на commit
+17)git branch -d "branch_name" 	видалення локальної гілки
+18)git pull                    	стягнути зміни з гітхабу
+19)git merge "branch_name"     	злити зміни з гілки branch_name в поточну гілку в якій 					знаходитесь.
+
 
 
