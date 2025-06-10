@@ -3,8 +3,8 @@ git config --global user.email "Kostenkoandrey14@gmail.com"
 git config --global --list
 git remote set-url origin <URL>
 git remote add origin git@github.com:Andrey19950/GitRepoRemotely.git
-git remote -v        # показать список удалённых репозиториев
 
+git remote -v        # показать список удалённых репозиториев
 git init             # инициализировать git-репозиторий
 git status           # показать статус файлов
 git add <filename>   # добавить файл в staging area
@@ -12,8 +12,12 @@ git add .            # добавить все файлы в текущей ди
 git add -u           # добавить обновлённые и удалённые файлы
 git add --all        # добавить все изменения (новые, изменённые, удалённые)
 git commit -m "msg"  # сделать коммит с сообщением
+git commit --amend   # изменить последний коммит (сообщение или файлы)
 git commit           # открыть редактор для коммита вручную
 git log              # просмотр истории коммитов
+git log -n <quantity>        # показать указанное количество последних коммитов
+git log --since=2.weeks      # показать коммиты за последние 2 недели
+git log --author="author_name"  # показать коммиты, сделанные указанным автором
 
 git branch               # показать локальные ветки
 git branch -r            # показать только удалённые ветки
@@ -35,10 +39,6 @@ git pull                 # скачать и применить изменени
 git pull origin <branch> # скачать и применить изменения из конкретной ветки
 git push origin main     # отправить локальные изменения ветки main на GitHub
 
-git commit --amend                # изменить последний коммит (сообщение или файлы)
-git log -n <quantity>             # показать указанное количество последних коммитов
-git log --since=2.weeks           # показать коммиты за последние 2 недели
-git log --author="nataliia"       # показать коммиты, сделанные указанным автором
 git stash                         # временно сохранить незакоммиченные изменения
 git stash save "my-comment"       # сохранить изменения со своим комментарием
 git stash list                    # список всех сохранённых stash'ей
