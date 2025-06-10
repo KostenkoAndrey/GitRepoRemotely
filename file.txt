@@ -4,6 +4,9 @@ git config --global --list
 git remote set-url origin <URL>
 git remote add origin git@github.com:Andrey19950/GitRepoRemotely.git
 
+git branch -M main                # спочатку перейменовуємо дефолтну гілку master на main
+git push -u origin main           # потім відправляємо зафіксовані зміни до віддаленого репозиторію у віддалену гілку main
+
 git remote -v        # показать список удалённых репозиториев
 git init             # инициализировать git-репозиторий
 git status           # показать статус файлов
@@ -46,6 +49,8 @@ git stash pop                     # применить последний stash 
 git stash apply stash@{56f4530}   # применить конкретный stash без удаления
 git stash drop stash@{56f4530}    # удалить конкретный stash
 git stash clear                   # удалить все stash'и безвозвратно
+
+
 
 
 
