@@ -1,25 +1,43 @@
-git config --global user.name Andrii
-git config --global user.mail Kostenkoandrey14@gmail.com
-git remote set-url origin   URL GitHub
-1) git init			иниациализировать гит репо
-2) git status			отобазить  статус файлов репо 
-3) git add <filename>		добавить файл в stagging area
-4) git commit -m <commit msg>	сделать commit
-5) git log			отобразить лог
-6) git add .			добавить все файлы текущей директории 
-7) git add -u			добавить все обновленные файлы 
-8) git add --all		добавить все файлы текущей директории 
-9) git remote add origin 	git@github.com:Andrey19950/GitRepoRemotely.git
-10)git remote -v		выводит список удалённых репозиториев
-11)git push origin main		використовується для відправки змін з вашої локальної 					гілки main на віддалений репозиторій, який називається 					origin
-12)git checkout -b		создать новую ветку и перейти
-13)git switch -c "branch_name"	створе і перейде на нову гілку
-14)git switch "branch_name"    	зміна гілки (перехід в іншу гілку)
-15)git checkout "branchname" 	перейти на ветку 
-16)git checkout commithash 	перейти на commit
-17)git branch -d "branch_name" 	видалення локальної гілки
-18)git pull                    	стягнути зміни з гітхабу
-19)git merge "branch_name"     	злити зміни з гілки branch_name в поточну гілку в якій 					знаходитесь.
+git config --global user.name "Andrii"
+git config --global user.email "Kostenkoandrey14@gmail.com"
+git remote set-url origin <URL>
+git remote add origin git@github.com:Andrey19950/GitRepoRemotely.git
+git remote -v        # показать список удалённых репозиториев
+
+git init             # инициализировать git-репозиторий
+git status           # показать статус файлов
+git add <filename>   # добавить файл в staging area
+git add .            # добавить все файлы в текущей директории
+git add -u           # добавить обновлённые и удалённые файлы
+git add --all        # добавить все изменения (новые, изменённые, удалённые)
+git commit -m "msg"  # сделать коммит с сообщением
+git commit           # открыть редактор для коммита вручную
+git log              # просмотр истории коммитов
+
+git branch               # показать локальные ветки
+git branch -r            # показать только удалённые ветки
+git branch -a            # показать все ветки (локальные и удалённые)
+
+git checkout -b <branch> # создать и переключиться на новую ветку (старый способ)
+git switch -c <branch>   # создать и переключиться на новую ветку (новый способ)
+git switch <branch>      # переключиться на существующую ветку
+git checkout <branch>    # тоже переключиться на ветку (старый способ)
+git checkout <commit>    # перейти к коммиту (detached HEAD)
+
+git branch -d <branch>   # удалить локальную ветку
+git branch -D <branch>   # принудительно удалить ветку
+
+git merge <branch>       # слить указанную ветку в текущую
+
+git fetch                # скачать изменения с удалённого репо, но не применять
+git pull                 # скачать и применить изменения из всех удалённых веток
+git pull origin <branch> # скачать и применить изменения из конкретной ветки
+git push origin main     # отправить локальные изменения ветки main на GitHub
+
+
+
+
+
 
 
 
