@@ -1,5 +1,6 @@
 git config --global user.name "Andrii"
 git config --global user.email "Kostenkoandrey14@gmail.com"
+git config --global --list
 git remote set-url origin <URL>
 git remote add origin git@github.com:Andrey19950/GitRepoRemotely.git
 git remote -v        # показать список удалённых репозиториев
@@ -33,6 +34,20 @@ git fetch                # скачать изменения с удалённо
 git pull                 # скачать и применить изменения из всех удалённых веток
 git pull origin <branch> # скачать и применить изменения из конкретной ветки
 git push origin main     # отправить локальные изменения ветки main на GitHub
+
+git commit --amend                # изменить последний коммит (сообщение или файлы)
+git log -n <quantity>             # показать указанное количество последних коммитов
+git log --since=2.weeks           # показать коммиты за последние 2 недели
+git log --author="nataliia"       # показать коммиты, сделанные указанным автором
+git stash                         # временно сохранить незакоммиченные изменения
+git stash save "my-comment"       # сохранить изменения со своим комментарием
+git stash list                    # список всех сохранённых stash'ей
+git stash pop                     # применить последний stash и удалить его
+git stash apply stash@{56f4530}   # применить конкретный stash без удаления
+git stash drop stash@{56f4530}    # удалить конкретный stash
+git stash clear                   # удалить все stash'и безвозвратно
+
+
 
 
 
