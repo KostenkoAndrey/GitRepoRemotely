@@ -38,6 +38,7 @@ git branch -D <branch>   # принудительно удалить ветку
 git merge <branch>       # слить указанную ветку в текущую
 
 git fetch                # скачать изменения с удалённого репо, но не применять
+git diff origin/main              # Покажет, что добавили или изменили по сравнению с origin/main
 git pull                 # скачать и применить изменения из всех удалённых веток
 git pull origin <branch> # скачать и применить изменения из конкретной ветки
 git push origin main     # отправить локальные изменения ветки main на GitHub
@@ -49,6 +50,7 @@ git stash pop                     # применить последний stash 
 git stash apply stash@{56f4530}   # применить конкретный stash без удаления
 git stash drop stash@{56f4530}    # удалить конкретный stash
 git stash clear                   # удалить все stash'и безвозвратно
+
 
 
 
